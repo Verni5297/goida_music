@@ -1,0 +1,250 @@
+body{
+    background-color: #201d20;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    display:flex;
+
+    justify-content: center;
+    flex-direction:column;
+    font-size: 24px;
+
+    background-color: #b10000;
+    padding: 10px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    max-width: 1200px;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+
+    background-color: rgb(19, 19, 19);
+}
+
+.text_main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 900px);
+    max-width: 1200px;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+
+    background-color: rgb(19, 19, 19);
+}
+
+.text_main p{
+    font-size: 24px;
+}
+
+.channels{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tracks{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 100px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin: 20px auto;
+}
+
+.buttons__card{
+    background-color: #ff0000;
+
+    max-width: 150px;
+    font-size: 32px;
+    display:flex;
+
+    justify-content: center;
+    flex-direction:column;
+
+    padding: 20px;
+    padding-left: 9px;
+    transition: 0.3s;
+}
+
+.buttons__card a{
+    font-size: 32px;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+.buttons__card:hover{
+    background-color: #cc0000;
+}
+
+.text{     
+    background-color: #ffdffd; 
+    max-width: 800px;
+    font-size: 32px;
+    display:flex;
+
+    transition: 0.3s;
+}
+
+.text a{
+    color:rgb(0, 0, 0) ;
+    text-decoration: none;
+    list-style: none;
+}
+
+.channel__card{
+    border-radius: 20px;
+
+    font-size: 20px;
+
+    max-width: 250px;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 20px;
+    transition: 0.3s;
+
+    box-shadow: 2 2 2 2 #000000;
+}
+
+.channel__card a{
+    font-size: 24px;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+.channel__card img{
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.track__card{
+    background-color: #1a1a1a;
+    font-size: 12px;
+
+    border-radius: 4px;
+
+    width: 250px;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.track__card a{
+    font-size: 20px;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+.track__card img{
+    height: 250px;
+    width: 250px;
+}
+
+.track__card audio{
+    width: 250px;
+}
+
+.track__card:hover{
+    transform: scale(1.1);
+    background-color: #000000;
+}
+
+.channel__card:hover{
+    transform: scale(1.05);
+    background-color: #0e0e0e
+}
+
+.channel_profile{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.channel_profile h2{
+    padding-top: 20px;
+    font-size: 48px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.channel_profile h2{
+    padding-top: 20px;
+    font-size: 48px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.channel_profile p{
+    padding-top: 20px;
+    font-size: 24px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.user{
+    border-radius: 20px;
+
+    font-size: 20px;
+
+    max-width: 250px;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 20px;
+    transition: 0.3s;
+
+    box-shadow: 2 2 2 2 #000000;
+}
+
+.user:hover{
+    transform: scale(1.05);
+}
+
+
+
+.red_text {
+    color:rgb(255, 0, 0) ;
+    text-decoration: none;
+    list-style: none;
+}
