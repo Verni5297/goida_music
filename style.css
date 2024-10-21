@@ -43,6 +43,13 @@ h1{
     font-size: 24px;
 }
 
+.text_main a{
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+    color:rgb(255, 4, 4) ;
+}
+
 .channels{
     padding-top: 20px;
     padding-bottom: 20px;
