@@ -2,6 +2,10 @@ body{
     background-color: #201d20;
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 3s;
+    /* animation: move 3s 0s ease-in-out infinite alternate; */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #201d20 0%, #161616 0%, #333333 100%);
 }
 
 h1{
@@ -354,6 +358,20 @@ h1{
     transform: scale(1.05);
 }
 
+
+@keyframes move{
+    from{
+        background: linear-gradient(90deg, #201d20 0%, #272727 0%, #000000 100%);
+        /* background-color: #201d20; */
+        /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(70,70,70,1) 100%); */
+    }
+
+    to{
+        background: linear-gradient(90deg, #201d20 0%, #272727 0%, #000000 100%);
+        /* background: #252525; */
+        /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(70,70,70,1) 0%, rgba(0,0,0,1) 100%); */
+    }
+}
 
 
 .red_text {
